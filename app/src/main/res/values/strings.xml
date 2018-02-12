@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sizzl</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_restaurants">RestaurantsActivity</string>
+    <string name="title_activity_wild_wings">WildWingsActivity</string>
+    <string name="title_activity_pick_up_or_delivery">PickUpOrDeliveryActivity</string>
+    <string name="title_activity_delivery">DeliveryActivity</string>
+    <string name="title_activity_orders">OrdersActivity</string>
+    <string name="title_activity_delivery_order">DeliveryOrderActivity</string>
+    <string name="title_activity_pick_up_order">PickUpOrderActivity</string>
+    <string name="title_activity_order_items">OrderItemsActivity</string>
+    <string name="title_activity_account_info">AccountInfoActivity</string>
+</resources>

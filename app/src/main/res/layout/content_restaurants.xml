@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sizzl.ryanhelmlinger.sizzl.RestaurantsActivity"
+    tools:showIn="@layout/activity_restaurants">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/buffalo_wild_wings_logo"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buffalo Wild Wings"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bar Food"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.1 mi"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <View
+        android:layout_width="371dp"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/chipotle_logo"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chipotle"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mexican Cuisine"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.1 mi"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <View
+        android:layout_width="371dp"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/fritas_batidos_logo"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fritas Batidos"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuban Burgers"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.1 mi"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$$"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <View
+        android:layout_width="371dp"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/mongolian_grill_logo"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BD's Mongolian Grill"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mongolian Cuisine"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.1 mi"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$$"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <View
+        android:layout_width="371dp"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/hopcat_logo"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HopCat"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bar Food"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.1 mi"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Get Food"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Orders"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Account Info"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+
+</android.support.constraint.ConstraintLayout>

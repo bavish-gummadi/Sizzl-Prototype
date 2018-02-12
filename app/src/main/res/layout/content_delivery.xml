@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sizzl.ryanhelmlinger.sizzl.DeliveryActivity"
+    tools:showIn="@layout/activity_delivery">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where do you want it delivered?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="254dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_main"
+        android:text="CONTINUE"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_main"
+        android:text="USE CURRENT LOCATION"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-OR-"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+
+    <Button
+        android:id="@+id/buttonmenu1"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Get Food"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/buttonmenu2"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Orders"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/buttonmenu3"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Account Info"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+</android.support.constraint.ConstraintLayout>

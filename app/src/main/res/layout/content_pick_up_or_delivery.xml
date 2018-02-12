@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sizzl.ryanhelmlinger.sizzl.PickUpOrDeliveryActivity"
+    tools:showIn="@layout/activity_pick_up_or_delivery">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="248dp"
+        android:layout_height="74dp"
+        android:background="@drawable/button_main"
+        android:fontFamily="roboto"
+        android:text="PICK UP"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="248dp"
+        android:layout_height="74dp"
+        android:background="@drawable/button_main"
+        android:fontFamily="roboto"
+        android:text="DELIVERY"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="248dp"
+        android:layout_height="74dp"
+        android:background="@drawable/button_main"
+        android:fontFamily="roboto"
+        android:text="DINE IN"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About a 10 minute wait"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About a 20 minute wait"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+
+    <Button
+        android:id="@+id/buttonmenu1"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Get Food"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/buttonmenu2"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Orders"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/buttonmenu3"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_menu"
+        android:fontFamily="roboto"
+        android:text="Account Info"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+</android.support.constraint.ConstraintLayout>
