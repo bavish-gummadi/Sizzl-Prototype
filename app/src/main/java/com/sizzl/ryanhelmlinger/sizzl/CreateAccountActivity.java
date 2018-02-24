@@ -18,17 +18,9 @@ public class CreateAccountActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         //THIS BUTTON WILL TAKE INFORMATION FROM USER
-        /*
+
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,8 +28,8 @@ public class CreateAccountActivity extends AppCompatActivity {
                 goToRestaurantsActivity();
             }
         });
-        */
 
+        /*
         Button button = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +37,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                 goToMainActivity();
             }
         });
+        */
     }
 
     /**
@@ -52,9 +45,14 @@ public class CreateAccountActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     //public native String stringFromJNI();
-
+    /*
     private void goToMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    */
+    private void goToRestaurantsActivity(){
+        Intent intent = new Intent(this, RestaurantsActivity.class);
         startActivity(intent);
     }
 }

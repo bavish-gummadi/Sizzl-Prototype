@@ -2,8 +2,6 @@ package com.sizzl.ryanhelmlinger.sizzl;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -42,7 +40,7 @@ public class WildWingsActivity extends AppCompatActivity {
             }
         });
 
-        Button accountInfo = (Button) findViewById(R.id.buttonmenu3);
+        Button accountInfo = (Button) findViewById(R.id.button3);
         accountInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
