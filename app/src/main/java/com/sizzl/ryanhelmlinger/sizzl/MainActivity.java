@@ -24,13 +24,22 @@ public class MainActivity extends AppCompatActivity {
         tv.setText(stringFromJNI());
 
 
-        Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button logIn = (Button) findViewById(R.id.button);
+        logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goToSecondActivity();
+                goToRestaurantsActivity();
             }
         });
+
+        Button createAccount = (Button) findViewById(R.id.button2);
+        createAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToCreateAccount();
+            }
+        });
+
     }
 
     /**
@@ -39,8 +48,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public native String stringFromJNI();
 
-    private void goToSecondActivity(){
+    private void goToRestaurantsActivity(){
         Intent intent = new Intent(this, RestaurantsActivity.class);
         startActivity(intent);
     }
+    private void goToCreateAccount(){
+        Intent intent = new Intent(this, CreateAccountActivity.class);
+        startActivity(intent);
+    }
+
 }

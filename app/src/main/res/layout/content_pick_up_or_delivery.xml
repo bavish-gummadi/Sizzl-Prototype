@@ -12,87 +12,129 @@
         android:id="@+id/button1"
         android:layout_width="248dp"
         android:layout_height="74dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/button_main"
         android:fontFamily="roboto"
         android:text="PICK UP"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="54dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="248dp"
         android:layout_height="74dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/button_main"
         android:fontFamily="roboto"
         android:text="DELIVERY"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="174dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="248dp"
         android:layout_height="74dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/button_main"
         android:fontFamily="roboto"
         android:text="DINE IN"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="294dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="About a 10 minute wait"
         android:textColor="@android:color/black"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="About a 20 minute wait"
         android:textColor="@android:color/black"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
         android:id="@+id/buttonmenu1"
         android:layout_width="128dp"
         android:layout_height="60dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginTop="452dp"
         android:background="@drawable/button_menu"
         android:fontFamily="roboto"
         android:text="Get Food"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="455dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonmenu2"
         android:layout_width="128dp"
         android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="452dp"
         android:background="@drawable/button_menu"
         android:fontFamily="roboto"
         android:text="Orders"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="455dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonmenu3"
         android:layout_width="128dp"
         android:layout_height="60dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="452dp"
         android:background="@drawable/button_menu"
         android:fontFamily="roboto"
         android:text="Account Info"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="455dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
